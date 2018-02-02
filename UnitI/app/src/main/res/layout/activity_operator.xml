@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context="com.example.dlira.uniti.OperatorActivity">
+
+    <EditText
+        android:id="@+id/edt_data"
+        android:layout_columnSpan="4"
+        android:layout_width="match_parent"
+        android:hint="@string/_0_0"
+        android:textSize="15pt" />
+
+    //Fist row of the calculator
+    <Button android:id="@+id/btn_seven"
+        android:text="@string/_7"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_eight"
+        android:text="@string/_8"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_nine"
+        android:text="@string/_9"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_multi"
+        android:text="@string/multiplication"
+        android:textSize="@dimen/number_size"
+        />
+
+
+    //Second row of the calculator
+    <Button android:id="@+id/btn_four"
+        android:text="@string/_4"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_five"
+        android:text="@string/_5"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_six"
+        android:text="@string/_6"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_sus"
+        android:text="@string/substraction"
+        android:textSize="@dimen/number_size"
+        />
+
+
+
+    //Third row of calculator
+    <Button android:id="@+id/btn_one"
+        android:text="@string/_1"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_two"
+        android:text="@string/_2"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_three"
+        android:text="@string/_3"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_add"
+        android:text="@string/addition"
+        android:textSize="@dimen/number_size"
+        />
+
+
+
+    //Fourth row of calculator
+    <Button android:id="@+id/btn_div"
+        android:text="@string/divition"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_zero"
+        android:text="@string/_0"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_dot"
+        android:text="@string/dot"
+        android:textSize="@dimen/number_size"
+        />
+    <Button android:id="@+id/btn_equal"
+        android:text="@string/equal"
+        android:textSize="@dimen/number_size"
+        />
+
+
+</GridLayout>
