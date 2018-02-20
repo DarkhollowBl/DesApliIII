@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CRUD</string>
+    <string name="name">Nombre:</string>
+    <string name="create_tour">Crear Recorrido</string>
+    <string name="save">GUARDAR</string>
+    <string name="set_descrption">Ingresa descrpcion</string>
+    <string name="select_image">Selecciona la imagen</string>
+    <string name="scan">EXAMINAR</string>
+    <string name="description">DESCRIPCION</string>
+    <string name="add">Agregar</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>

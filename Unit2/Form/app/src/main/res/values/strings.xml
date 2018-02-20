@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Form</string>
+    <string name="write_your_data">Write your data</string>
+    <string name="type_name_complete">Type name complete</string>
+    <string name="type_phone">Type phone</string>
+    <string name="type_email">Type email</string>
+    <string name="type_password">Type password</string>
+    <string name="type_number_of_people">Type number of people</string>
+    <string name="reserve">Reserve</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Info</string>
+    <string name="lorem_ipsun">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in libero
+        at velit facilisis lobortis. Nullam nunc nibh, vulputate in mattis eu, tempor ut dui. Fusce ut
+        finibus erat. Pellentesque neque magna, laoreet quis lectus nec, posuere pulvinar neque. Vivamus
+        molestie fringilla odio. Sed rhoncus nibh ac maximus eleifend. Sed vitae ornare elit, vitae posuere
+        justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Maecenas vulputate sit amet ex at pulvinar. Quisque auctor ultrices nisl. </string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="parroquia_text">"Parroquia de Nuestra señora de los Dolores" </string>
+    <string name="text_info">La edificación de la Parroquia de Nuestra Señora de Los Dolores se inició el 2 de Febrero de 1712 por disposición del Sr.
+        Cura Lic. Álvaro de Osio y Ocampo y se concluyó en el año de 1778. Este templo está considerado como uno de los mejores ejemplos del barroco
+        novohíspano del último tercio del siglo XVIII. Son notables la concha que remata al arco de acceso y los tres pares de estípites a los lados de
+        la puerta, principalmente los de los extremos, que incorporan nichos y esculturas en su cuerpo.</string>
+    <string name="tours">Tours</string>
+</resources>

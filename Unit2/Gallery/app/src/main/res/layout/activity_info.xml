@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.utng.aquintero.prototype2.InfoActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/parroquiawp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_sqrt"
+        />
+
+    <TextView   android:id="@+id/txv_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_120"
+
+        android:text="@string/parroquia_text"
+        android:textColor="@color/color_text_white"
+        android:textSize="@dimen/dimen_12"
+        android:textAlignment="center"
+        />
+    <TextView android:id="@+id/txv_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txv_title"
+
+        android:text="@string/text_info"
+        android:textColor="@color/color_text_white"
+        android:textAlignment="gravity"
+        android:layout_margin="@dimen/dimen_6"
+        android:textSize="@dimen/dimen_7"
+        />
+</RelativeLayout>

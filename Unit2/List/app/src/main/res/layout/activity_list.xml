@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dlira.pro1.ListActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_of_tours"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_15"
+        android:id="@+id/tvTitle"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_220"
+        android:textAlignment="center"
+        android:id="@+id/lv01"
+        android:layout_below="@id/tvTitle">
+
+    </ListView>
+
+    <Button android:id="@+id/btn_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_10"
+        android:layout_below="@id/lv01"
+        android:text="@string/gallery" />
+
+    <Button android:id="@+id/btn_tree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/dimen_10"
+        android:layout_toRightOf="@id/btn_two"
+        android:layout_below="@id/lv01"
+        android:text="@string/info" />
+
+</RelativeLayout>

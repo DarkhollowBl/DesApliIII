@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_your_data"
+        android:textSize="@dimen/dimen_17"
+        android:textAlignment="center"
+        />
+
+
+    //Label of name
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_name_complete"
+        android:textSize="@dimen/dimen_10"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_name"
+        android:inputType="text"
+        />
+
+    //Label of phone
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_phone"
+        android:textSize="@dimen/dimen_10"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_phone"
+        android:inputType="phone"
+        />
+
+    //Label of phone
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_email"
+        android:textSize="@dimen/dimen_10"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_email"
+        android:inputType="textEmailAddress"
+        />
+
+    //Label of phone
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_password"
+        android:textSize="@dimen/dimen_10"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:inputType="textPassword"
+        />
+
+    //Label of phone
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_number_of_people"
+        android:textSize="@dimen/dimen_10"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_people"
+        android:inputType="number"
+        />
+
+    //Boton
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reserve"
+        android:textSize="@dimen/dimen_10"
+        />
+
+</LinearLayout>

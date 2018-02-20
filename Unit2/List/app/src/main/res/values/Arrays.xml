@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recorridos">
+        <item>Barra Fina</item>
+        <item>Bourke Street Bakery</item>
+        <item>Cafe dead end</item>
+        <item>Cafe Loisl</item>
+        <item>Cafe Lore</item>
+        <item>CASK Pub and Kitchen</item>
+        <item>Confessional</item>
+        <item>Donostia</item>
+        <item>Five Leaves</item>
+        <item>For Kee Restaurant</item>
+        <item>Graham Avenue Meats</item>
+        <item>Haigh's Chocolate</item>
+        <item>Homei</item>
+    </string-array>
+</resources>

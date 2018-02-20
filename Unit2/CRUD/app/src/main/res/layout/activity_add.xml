@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.utng.jonaml.customlist.AddActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/dimen_333"
+        android:layout_height="@dimen/dimen_38"
+        android:layout_centerHorizontal="true"
+        android:text="@string/create_tour"
+        android:textAlignment="center"
+        android:textSize="@dimen/dimen_18_sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="@dimen/dimen_112"
+        android:layout_height="@dimen/dimen_54"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/txtdescripcion"
+        android:layout_marginTop="@dimen/dimen_30"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.964" />
+
+    <EditText
+        android:id="@+id/txtdescripcion"
+        android:layout_width="@dimen/dimen_357"
+        android:layout_height="@dimen/dimen_203"
+        android:layout_below="@+id/btexaminar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_13"
+        android:ems="10"
+        android:hint="@string/set_descrption"
+        android:inputType="text|textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/txtexaminar"
+        android:layout_width="@dimen/dimen_249"
+        android:layout_height="@dimen/dimen_49"
+        android:layout_above="@+id/txtdescripcion"
+        android:layout_alignLeft="@+id/txtdescripcion"
+        android:layout_alignStart="@+id/txtdescripcion"
+        android:ems="10"
+        android:hint="@string/select_image"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/btexaminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtdescripcion"
+        android:layout_alignRight="@+id/txtdescripcion"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="@dimen/dimen_11"
+        android:text="@string/scan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.805" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="@dimen/dimen_124"
+        android:layout_height="@dimen/dimen_19"
+        android:layout_below="@+id/btexaminar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_17"
+        android:text="@string/description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692"
+        tools:layout_editor_absoluteX="97dp" />
+
+
+</RelativeLayout>

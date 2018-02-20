@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="colum_size">350dp</dimen>
+    <dimen name="name_size">15pt</dimen>
+    <dimen name="spacing">5dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_12">12pt</dimen>
+    <dimen name="dimen_6">6pt</dimen>
+    <dimen name="dimen_7">7pt</dimen>
+    <dimen name="dimen_10">10pt</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_85">85pt</dimen>
+    <dimen name="dimen_70">70pt</dimen>
+    <dimen name="dimen_0">0dp</dimen>
+</resources>
